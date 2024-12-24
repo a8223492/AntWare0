@@ -1,0 +1,11 @@
+{
+  "name": "antware0",
+  "version": "0.1.0",
+  "dependencies": [
+    "glew",
+    "sfml",
+    "glm",
+    "assimp",
+    "rapidjson"
+  ]
+}
