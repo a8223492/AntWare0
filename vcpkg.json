@@ -2,8 +2,13 @@
   "name": "antware0",
   "version": "0.1.0",
   "dependencies": [
-    "glew",
-    "sfml",
+    {
+      "name": "sfml",
+      "default-features": false,
+        "features": ["audio", "graphics" , "network" ]
+
+    },
+    "glad",
     "glm",
     "assimp",
     "rapidjson"
